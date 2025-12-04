@@ -11,7 +11,6 @@ function secondlargestNumber(arr) {
             secondLargest = firstLargest
             firstLargest = arr[i]
         } else if (arr[i] > secondLargest && arr[i] != firstLargest) {
-            console.log(arr[i])
             secondLargest = arr[i]
         }
     }
@@ -19,7 +18,7 @@ function secondlargestNumber(arr) {
     
 }
 
-let arr = [4, 9, 9, 0, 2, 8, 8, 7, 1, 7]
+let arr = [4, 9, 9, 0, 2, 8, 8, 7, 1, 7, 9]
 
 let result = secondlargestNumber(arr)
 console.log(result)
